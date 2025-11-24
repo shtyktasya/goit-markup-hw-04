@@ -72,7 +72,7 @@ letter-spacing: 0.04em;
 cursor: pointer;
 }
 .button:hover,
-,button:focus {
+button:focus {
     background-color: #404BBF;
 }
 .title {
@@ -118,6 +118,9 @@ cursor: pointer;
 }
 .footer {
     background-color: #2E2F42;
+}
+.span-footer {
+    color: #f4f4fd;
 }
 .footer .footer-text {
     color: #F4F4FD;
