@@ -1,7 +1,7 @@
 body {
-    font-family: Roboto, Raleway, sans-serif;
-    color: #2E2F42;
-    background-color: #E7E9FC;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
     font-weight: bold;
     font-size: 16px;
     line-height: 1.5;
@@ -9,56 +9,46 @@ body {
 
 }
 .logo {
+    color: #4d5ae5;
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 18px;
     text-transform: uppercase;
     text-align: left;
-    left: 156px;
-    top: 24px;
-    width: 115px;
-    height: 24px;
-    line-height: 1.2;
-    letter-spacing: 3%;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+.span {
+    color: #2e2f42;
 }
 .page-nav .link {
-font-weight: 500;
+color: #2e2f42;
+ font-weight: 500;
 font-size: 16px;
 text-align: left;
-left: 347px;
-top: 24px;
-width: 261px;
-height: 24px;
 line-height: 1.5;
+letter-spacing: 0.02em;
 }
-.page-nav .link:hover
+.page-nav .link:hover,
 .page-nav .link:active {
-    color: #404BBF;
+    color: #404bbf;
 }
-.page-address {
+.address {
+    font-style: normal;
+}
+.address .link-address {
   color: #434455; 
  font-weight: 400;
- font-size: 12px;
+ font-size: 16px;
  text-align: right;
- line-height: 1.333;
- letter-spacing: 4%;
+ line-height: 1.5;
+ letter-spacing: 0.02em;
  text-decoration: underline;
 }
-.page-address:hover
-.page-address:focus {
-    color: #404BBF;
+.address .link-address:hover
+.address .link-address:focus {
+    color: #404bbf;
 }
-.page-address .link-mailto {
-    width: 153px;
-    height: 24px;
-    top: 24px;
-    left: 940px;
-}
-.page-address .link-tel {
-    width: 151px;
-    height: 24px;
-    top: 24px;
-    left: 1133px;
 }
 .page-title {
     color: #FFFFFF;
@@ -68,44 +58,61 @@ line-height: 1.5;
 .page-title .title {
     font-size: 56px;
     font-weight: 700;
-    line-height: 1.1;
-    letter-spacing: 2%;
-    width: 496px;
-    height: 120px;
-    top: 260px;
-    left: 472px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+
 }
-button {
+.button {
+font-family: "Roboto", sans-serif;
 color: #FFFFFF;
 background-color: #4D5AE5;
-font-weight: Medium;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 4%;
+letter-spacing: 0.04em;
 cursor: pointer;
 }
-button:hover {
+.button:hover {
     background-color: #404BBF;
+}
+.title {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+}
+.text {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02;
 }
 .section-team {
     background-color: #F4F4FD;
 }
-.title {
-font-weight: Medium;
-font-size: 20px;
-letter-spacing: 2%;
-}
-.text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 2%;
-}
 .section-title {
     font-weight: bold;
     font-size: 36px;
-    line-height: 1.111;
-    letter-spacing: 2%;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
+}
+.list-team {
+    background-color: #FFFFFF;
+}
+.class-title {
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.class-text {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .footer {
     background-color: #2E2F42;
@@ -115,6 +122,6 @@ letter-spacing: 2%;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     text-align: left;
 }
