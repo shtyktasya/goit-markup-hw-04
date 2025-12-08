@@ -119,6 +119,11 @@ button:focus {
 .footer {
     background-color: #2E2F42;
 }
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
 .span-footer {
     color: #f4f4fd;
 }
