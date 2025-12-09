@@ -78,6 +78,19 @@ body {
 button:focus {
   background-color: #404bbf;
 }
+.visually-hidden {
+position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .title {
   color: #2e2f42;
   font-weight: 500;
@@ -119,7 +132,7 @@ button:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.page-main {
+ul, ol {
   list-style: none;
   margin-left: 0;
   padding-left: 0;
