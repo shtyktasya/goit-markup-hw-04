@@ -34,14 +34,13 @@ img {
   max-width: 100%;
 }
 .header {
-  border: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   min-height: 72px;
-  border: 1px solid #e7e9fc;
 }
 .header nav {
   display: flex;
@@ -115,7 +114,6 @@ img {
 }
 .page-title .container {
   display: flex;
-  min-height: 600px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -218,7 +216,7 @@ button:focus {
   justify-content: center;
   align-items: center;
 }
-.card-set-team .container {
+.card-set-team .text-team {
   padding: 32px 0;
 }
 .card-set .card-set-team {
@@ -241,16 +239,12 @@ button:focus {
   row-gap: 48px;
 }
 .card-set-portfolio .card-portfolio {
-  border: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
   width: calc((100% - 48px) / 3);
 }
-.card-portfolio .container {
+.card-portfolio .portfolio {
   padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-}
-.portfolio-text {
-  padding-left: 16px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .class-title {
   color: #2e2f42;
@@ -258,16 +252,12 @@ button:focus {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
-  margin-top: 32px;
   text-align: center;
-}
+} 
 .class-text {
   color: #434455;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 32px;
   font-weight: 400;
   text-align: center;
 }
@@ -279,8 +269,7 @@ button:focus {
   padding: 100px 0;
 }
 .footer .container {
-  margin: 100px 156px;
-  max-width: 264px;
+  margin-left: 156px;
 }
 .logo-footer {
   display: inline-block;
@@ -295,5 +284,5 @@ button:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: left;
+  max-width: 264px;
 }
