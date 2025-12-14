@@ -244,7 +244,9 @@ button:focus {
 }
 .card-portfolio .portfolio {
   padding: 32px 16px;
+  border-right: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
 }
 .class-title {
   color: #2e2f42;
