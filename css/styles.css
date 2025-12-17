@@ -96,7 +96,7 @@ img {
   color: #404bbf;
 }
 
-.page-nav .link:hover::after {
+.page-nav .link::after {
   display: block;
   min-width: 48px;
   margin-top: 20px;
@@ -108,6 +108,10 @@ img {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
+}
+.page-nav .link:hover::after,
+.page-nav .link:focus::after {
+  opacity: 1;
 }
 .address-ul {
   font-style: normal;
@@ -134,7 +138,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 1440px;
+
 }
 .page-title {
   background-color: #2e2f42;
@@ -148,6 +152,7 @@ img {
   background-position: center center;
   background-size: cover;
   padding: 188px 0;
+  max-width: 1440px;
 }
 .page-title .title-hero {
   color: #ffffff;
@@ -290,6 +295,7 @@ button:focus {
 .social-box {
   width: 40px;
   height: 40px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link {
   display: flex;
@@ -300,7 +306,7 @@ button:focus {
   padding: 12px;
   width: 100%;
   height: 100%;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
   margin-top: 8px;
 }
 .social-icon {
@@ -443,7 +449,7 @@ button:focus {
   padding: 8px;
   width: 100%;
   height: 100%;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-icon {
   display: flex;
@@ -451,7 +457,7 @@ button:focus {
   fill: #f4f4fd;
 }
 
-.social-link:hover,
-.social-link:focus {
+.footer-social .social-link:hover,
+.footer-social .social-link:focus {
   background-color: #31d0aa;
 }
