@@ -137,20 +137,19 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 1440px;
 }
 .page-title {
   background-color: #2e2f42;
   background-image: linear-gradient(
-      to bottom,
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(./background-image.jpg);
+    url(../images/background-image.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   padding: 188px 0;
+  max-width: 1440px;
 }
 .page-title .title-hero {
   color: #ffffff;
@@ -390,12 +389,13 @@ button:focus {
 }
 .footer .container {
   display: flex;
-  align-items: flex-start;
+  align-items: baseline;
   max-width: 1158px;
   margin: 0 auto;
 }
 .div-logo {
   width: 264px;
+  margin-right: 120px;
 }
 .logo-footer {
   display: inline-block;
