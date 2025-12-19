@@ -416,12 +416,7 @@ button:focus {
   letter-spacing: 0.02em;
   max-width: 264px;
 }
-.social-media {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  width: 208px;
-}
+
 .social-media .social-text {
   color: #ffffff;
   font-weight: 500;
